@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import {About, Footer, Header, Skills, Project, Testimonial }from './container';
-
+import {Navbar} from './components/Navbar';
 const App=() =>{
   return (
     <div className='app'>
+      <Navbar />
       <Header/>
       <About/>
       <Footer/>
