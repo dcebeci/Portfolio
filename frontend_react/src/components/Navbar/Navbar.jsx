@@ -1,5 +1,7 @@
-import React from 'react'
-import './Navbar.scss';;
+import React from 'react';
+import {images} from '../../constants';
+import './Navbar.scss';
+
 function Navbar() {
   return (
     <div>Navbar</div>
