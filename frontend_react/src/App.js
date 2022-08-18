@@ -1,7 +1,7 @@
 
 import './App.css';
 import {About, Footer, Header, Skills, Project, Testimonial }from './container';
-import {Navbar} from './components/Navbar';
+import { Navbar } from './components';
 
 const App=() =>{
   return (
