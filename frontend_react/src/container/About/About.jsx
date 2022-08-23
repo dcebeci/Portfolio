@@ -1,11 +1,10 @@
 import React, {useState, useEffect} from 'react'
 import './About.scss';
 import {motion} from 'framer-motion';
-
 import {images} from '../../constants';
 
 const abouts = [{
-  title: 'web development', description: 'I can build web applications using React & .net MVC', imgUrl: images.about01},
+  title: 'Web development', description: 'I can build web applications using React & .net MVC', imgUrl: images.about01},
   {title: 'Frontend Development', description: 'I am good at web desing',imgUrl: images.about02},
   {title: 'Backend Development', description: 'I know .net MVC and EFC',imgUrl: images.about03
 },];
