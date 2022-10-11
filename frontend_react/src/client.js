@@ -9,3 +9,7 @@ export const client = sanityClient({
     token: '',
 
 });
+
+const builder = imgUrlBuilder(Client);
+
+export const urlFor = (source) => builder.image(source)
