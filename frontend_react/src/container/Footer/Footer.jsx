@@ -73,10 +73,18 @@ const Footer = () => {
           <h3 className="head-text">
             İletişime geçtiğiniz için teşekkürler!
           </h3>
+          <h4 >Author: Doğukan Cebeci</h4>
+  <a href="cebecidogukan@gmail">cebecidogukan@gmail</a>
         </div>
       )}
     </>
   );
 };
 
+export default AppWrap(
+  MotionWrap(Footer, 'app__footer'),
+  'contact',
+  'app__whitebg',
+);
 
+  
