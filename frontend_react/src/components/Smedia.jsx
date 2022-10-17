@@ -14,7 +14,7 @@ const SocialMedia = () => (
       </div>
       <div>
         <BsInstagram />
-        d_cebeci
+        @d_cebeci
       </div>
     </div>
   );
