@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+/* import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import ReactTooltip from 'react-tooltip';
 
@@ -93,3 +93,4 @@ export default AppWrap(
   'skills',
   'app__whitebg',
 );
+*/
