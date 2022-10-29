@@ -2,18 +2,19 @@ import React, {useState, useEffect} from 'react'
 import './About.scss';
 import {motion} from 'framer-motion';
 import {images} from '../../constants';
-
-const abouts = [{
-  title: 'Web development', description: 'I can build web applications using React & .net MVC', imgUrl: images.about01},
-  {title: 'Frontend Development', description: 'I know react an js on front side ',imgUrl: images.about02},
-  {title: 'Backend Development', description: 'I know .net MVC and EFC',imgUrl: images.about03
-},];
-
-
+import { urlFor,client } from '../../client';
 
 
 const About=() =>{
-  
+  const [abouts, setAbouts] = useState([]);
+  useEffect(()=> {
+    const query = '*[_type == "abouts"]';   
+
+    client.fetch(query)
+    .then((data)=> setAbouts(data))
+
+  },[]);
+ 
   return (
     <>
     <h2 className='head-text'>
